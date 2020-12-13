@@ -42,7 +42,7 @@ For most accurate results, you should calibrate your camera through intrinsic/ex
 An easier alternative(but less accurate) method would be to apply triangle similarity calibaration. Both of these methods can be used to map pixels to measurable units.\
 If you do not want/cannot apply camera calibration, you can still utilize the social distancing detector but you'll have to rely strictly on the pixel distances, which won't necessarily be accurate.
 For the sake of simplicity, this OpenCV Social Distancing detector implementation will rely on pixel distances. 
-You can extend the implementation as you see fit though :wink:.
+You can extend the implementation as you see fit though .
 
 * YOLO COCO weights\
 The weight file exceeds the github limits but can be download from <a href="https://pjreddie.com/media/files/yolov3.weights">here</a>.\
